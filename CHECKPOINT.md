@@ -6,11 +6,11 @@ Xuanyang Wang | Individual project | [python-dotenv issue #494](https://github.c
 
 | Check | Result from my fork |
 | --- | --- |
-| Python version (`python --version`) | [Enter your version] |
-| Source commit before adding the test (`git rev-parse HEAD`) | [Enter the commit hash] |
-| Build (`python -m build --wheel`) | [Paste the final build line] |
-| Original suite (`python -m pytest -q` before adding the test) | [Paste the final summary line] |
-| New test (`python -m pytest -q tests/test_find_dotenv_start_dir.py`) | [Paste the error line and the final summary line] |
+| Python version (`python --version`) | `Python 3.14.4` |
+| Source commit before adding the test (`git rev-parse HEAD`) | `4fbc6ff07215367ece731006855e732d1405992c` |
+| Build (`python -m build --wheel`) | `Successfully built python_dotenv-1.2.4-py3-none-any.whl` |
+| Original suite (`python -m pytest -q` before adding the test) | `291 passed, 1 skipped, 32 warnings in 1.43s` |
+| New test (`python -m pytest -q tests/test_find_dotenv_start_dir.py`) | `TypeError: find_dotenv() got an unexpected keyword argument 'dir'`<br>`1 failed in 0.02s` |
 
 ## Reproduction
 
